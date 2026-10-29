@@ -2,10 +2,13 @@
 
 ## UNEP International Resource Panel
 
-**Database:** Global Material Flows Database  
-**Access point:** https://www.resourcepanel.org/global-material-flows-database
+**Database:** Global Material Flows Database
+**Primary access point:** https://www.resourcepanel.org/global-material-flows-database
+**Dataset record:** https://energydata.info/en/dataset/world-unep-irp-global-material-flows-database
 
-The study uses material-flow data to construct domestic material consumption per unit of GDP (`DMC/GDP`) and GDP per unit of material footprint (`GDP/MF`). The original UNEP-IRP export used during analysis was named `mfa_totals_ratios_export.csv`. That source export is not redistributed in this repository; users can obtain source data from the UNEP-IRP database subject to its current access and reuse terms.
+The study uses material-flow data to construct domestic material consumption per unit of GDP (DMC/GDP) and GDP per unit of material footprint (GDP/MF). The original UNEP-IRP export used during analysis was named mfa_totals_ratios_export.csv.
+
+That source export is not redistributed in this repository. Users can obtain source data through the UNEP-IRP database or the dataset record above, subject to the applicable access, attribution, and reuse terms. The ENERGYDATA.INFO record indicates a CC BY 4.0 licence; users should consult the record and its associated resource details to confirm the terms applicable to the specific data files they access.
 
 ## World Bank World Development Indicators
 
