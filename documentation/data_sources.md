@@ -3,7 +3,9 @@
 ## UNEP International Resource Panel
 
 **Database:** Global Material Flows Database
+
 **Primary access point:** https://www.resourcepanel.org/global-material-flows-database
+
 **Dataset record:** https://energydata.info/en/dataset/world-unep-irp-global-material-flows-database
 
 The study uses material-flow data to construct domestic material consumption per unit of GDP (DMC/GDP) and GDP per unit of material footprint (GDP/MF). The original UNEP-IRP export used during analysis was named mfa_totals_ratios_export.csv.
