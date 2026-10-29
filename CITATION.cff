@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this research package, please cite the repository version you used."
+title: "Does the Composition of Natural-Resource Dependence Matter for Material Efficiency? Evidence from a Global Panel"
+type: software
+authors:
+  - family-names: "Amoateng"
+    given-names: "David"
+version: 0.1.0

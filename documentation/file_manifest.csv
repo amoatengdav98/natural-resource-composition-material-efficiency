@@ -1,0 +1,35 @@
+path,size_bytes,sha256,rows,columns,column_names
+.gitignore,81,d8c5ab09d75401f29e3e2ab66f5188bbcc51d0dfa23a37aa3fe82b77e17b274d,,,
+CITATION.cff,324,e5157d47da2f4dd02af321411aa2adb06514c8db47d66301d2766ca36e9be959,,,
+DATA_DICTIONARY.md,1188,7b66d0997bf9c205484b5438e83d25e2ac84340a8aaf4750fdce7ab63454d03a,,,
+LICENSE,326,9db05e4b4d2b29e60b6faa406d98669f962389c9a53fb337c2febc240a1efbd1,,,
+README.md,4519,e22cdca1f40e90cf5f8c7714027e83d3574d8ca9c712db4990ff4b3bae37a967,,,
+data/analysis_samples/baseline/FINAL_BASELINE_SAMPLE_GE18_2000_2021.csv,695791,a2c2006181a674562e884191e07645fb542800db754437823610d63509532f06,3124,19,Country; Year; DMC/GDP; GDP/MF; WDI_Name; Country Code; Country Name; Renewable; Trade; FDI; Forest; Oil; NRR; Gas; Coal; GDPpc; Urban; Mineral; Industry
+data/analysis_samples/baseline/MODEL_BASELINE_DMC_NRR_2000_2021.csv,703319,8e8d6e3f63bf27e1fa753e62d2544b15b599914ff17e28b2d78412799a24568d,3492,17,Country; Country Code; Year; DMC/GDP; GDP/MF; NRR; Oil; Gas; Coal; Mineral; Forest; GDPpc; Industry; Trade; Urban; Renewable; FDI
+data/analysis_samples/composition/FINAL_COMPOSITION_SAMPLE_GE18_2000_2021.csv,672243,da5f374d9d88ac26c3f4cb04206d646ff56007a2c7f508d73eaa959d47186c69,3008,19,Country; Year; DMC/GDP; GDP/MF; WDI_Name; Country Code; Country Name; Renewable; Trade; FDI; Forest; Oil; NRR; Gas; Coal; GDPpc; Urban; Mineral; Industry
+data/analysis_samples/composition/MODEL_COMPOSITION_DMC_2000_2021.csv,686181,465093713fd7c7eaefab7848e21ca342b495e6a311a7fa18b426da4cb865708b,3384,17,Country; Country Code; Year; DMC/GDP; GDP/MF; NRR; Oil; Gas; Coal; Mineral; Forest; GDPpc; Industry; Trade; Urban; Renewable; FDI
+data/analysis_samples/material_footprint/FINAL_MF_ROBUSTNESS_SAMPLE_GE18_2000_2021.csv,638387,64d95e7540761a326ecd09b0980c329765f608443175e262352577ae1b02c5a8,2821,19,Country; Year; DMC/GDP; GDP/MF; WDI_Name; Country Code; Country Name; Renewable; Trade; FDI; Forest; Oil; NRR; Gas; Coal; GDPpc; Urban; Mineral; Industry
+data/analysis_samples/material_footprint/MODEL_ROBUSTNESS_MF_2000_2021.csv,629207,12e26cf55bdd8629aafcbb4eceb47dfbcc34baf974393b23347180f699568b31,3051,17,Country; Country Code; Year; DMC/GDP; GDP/MF; NRR; Oil; Gas; Coal; Mineral; Forest; GDPpc; Industry; Trade; Urban; Renewable; FDI
+data/processed/FINAL_CLEAN_MASTER_2000_2021.csv,837645,2c15a0377d0e96648e887f2084a6a85cc8c38fb4fffbda1c82faa996231c64f8,4390,17,Country; Country Code; Year; DMC/GDP; GDP/MF; NRR; Oil; Gas; Coal; Mineral; Forest; GDPpc; Industry; Trade; Urban; Renewable; FDI
+data/raw/material_flow_indicators/DMC_per_unit_of_GDP_source_export.csv,141060,518f3ef3a7aaadc2498272c65e216f2f8f4c371ea5ed798122ea29abb6b17061,5595,4,"Entity; Code; Year; Domestic material consumption per unit of GDP, by type of raw material (kilograms per constant 2020 United States dollars) - Total or no breakdown"
+data/raw/unep_irp/mfa_totals_ratios_export.csv,4223700,7942e9f34f13eb3e61ded45a1c3a7e7144fb8e4e1ee35178dfd4ba6087f484a5,6744,59,Country; Flow name; Flow code; Flow unit; 1970; 1971; 1972; 1973; 1974; 1975; 1976; 1977; 1978; 1979; 1980; 1981; 1982; 1983; 1984; 1985; 1986; 1987; 1988; 1989; 1990; 1991; 1992; 1993; 1994; 1995; 1996; 1997; 1998; 1999; 2000; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020; 2021; 2022; 2023; 2024
+data/raw/world_bank/Coal rents-API_NY.GDP.COAL.RT.ZS_DS2_en_csv_v2_35370.csv,168969,72bc54d305f39a2935bfb08a57366326873e605991501a63b76409f36f6150fc,,,
+data/raw/world_bank/FDI-Foreign Direct Investement-API_BX.KLT.DINV.WD.GD.ZS_DS2_en_csv_v2_279640.csv,272150,cf19fc44eb7e08cbc1aeeab4ed8d49bb97db5615a07dfcbdfb3fc91f357f1fb0,,,
+data/raw/world_bank/Forest rents-API_NY.GDP.FRST.RT.ZS_DS2_en_csv_v2_39929.csv,253163,d432172396c0f6a36b96eb719f249e28b37cd1003480e7fa50ab74cfebb7cad1,,,
+data/raw/world_bank/GDP per capita-API_NY.GDP.PCAP.KD_DS2_en_csv_v2_300114.csv,303750,c3699be875c9d8ec6939b4be6ff9579482c9522ed840d3c78da8b605202c8c5e,,,
+data/raw/world_bank/Industry value added-API_NV.IND.TOTL.ZS_DS2_en_csv_v2_102950.csv,259327,27a19a2d33d8c09e7253ff2dbc8fffd9d7c3a90c902e69bfabcf73505296a8c9,,,
+data/raw/world_bank/Mineral rents-API_NY.GDP.MINR.RT.ZS_DS2_en_csv_v2_34395.csv,204649,073ddbe2181ef79f713d8d8f8eab25275470f19e7374ffed86f20c6131685f13,,,
+data/raw/world_bank/Natural-gas rents-API_NY.GDP.NGAS.RT.ZS_DS2_en_csv_v2_35861.csv,186113,846717ea85749da4776e44d17c8e6c8661c495797e6f1fc88f06b65b7449f74b,,,
+data/raw/world_bank/Oil rent-API_NY.GDP.PETR.RT.ZS_DS2_en_csv_v2_40227.csv,190550,c02e7bd4e2c31962742b4cc220ba78e7e0893eca0ee90939975f976f274dc2d7,,,
+data/raw/world_bank/Renewable energy-API_EG.FEC.RNEW.ZS_DS2_en_csv_v2_102971.csv,127610,49526400278cbe2e815fb327bff257fe5171343f0aa2e572e8caaacd2e99f3e7,,,
+data/raw/world_bank/Total natural resource rent-API_NY.GDP.TOTL.RT.ZS_DS2_en_csv_v2_38941.csv,253959,cddf3ac7a2cb1861f4c8cdefb850eb43f8f9f08baed54c58a3e29e0b4aae89d9,,,
+data/raw/world_bank/Trade openess-API_NE.TRD.GNFS.ZS_DS2_en_csv_v2_315186.csv,246580,9c96595e9914009f7d4615ddbf33bf7b4fa2329da1c7bd8462bee063c7a02cce,,,
+data/raw/world_bank/Urbanization-API_SP.URB.TOTL.IN.ZS_DS2_en_csv_v2_283510.csv,344556,16b783116cdf54c7886283101bf29cbcd92046a1f7e72a81c54156a5a52e4446,,,
+documentation/data_sources.md,3334,ab13580320b1b62a748269c192613ba7da6731bb46baba28ec813b92d728bdec,,,
+documentation/data_verification.md,2200,547807fdd8fae5b3e3fc37f57f145824babaf96a8c8028bcf744358fe95ecd6a,,,
+documentation/sample_selection.md,2520,62441b40f76a77eb0d6c68f18c6f18e112cb5276a96685fe331e185364869648,,,
+documentation/source_file_inventory.csv,3281,2a1e4e63cf44f9fc21eb88729c0c9f97598613f3c578a5a2be99cd50eec5041b,14,7,path; original_filename; size_bytes; sha256; rows; columns; year_columns
+notebooks/Natural_Resource_Dependence_Material_Efficiency_Analysis.ipynb,196587,4c0088fb99de86a621807747a877595fe240f3d338851c276581f08e1564806e,,,
+requirements.txt,153,cd939f4000fb903b32f67d154f7e2b2f3d7dde78495ba07ede3fca4ae7cec881,,,
+results/audits/FINAL_DATA_AUDIT_2000_2021.xlsx,6822,326c734cfd0fc88014b3a7422c19968fb66ae0ee456ff51afd00f3128e2fe018,,,
+results/audits/FINAL_FORENSIC_COUNTRY_AVAILABILITY_AUDIT.xlsx,27702,3b2f314df47e6263bb08bc47b5b94be0b40f205345796df64cbd565cd7bdf2a7,,,
