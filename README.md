@@ -52,8 +52,10 @@ The documented workflow does not use interpolation or mean imputation. Legitimat
 
 ## Citation
 
-When using this repository, cite the study as:
+When using this research package, please cite the archived version as follows:
 
-Amoateng, D. (2026). *Does the Composition of Natural-Resource Dependence Matter for Material Efficiency? Evidence from a Global Panel*. Research data and analysis repository.
+Amoateng, D. (2026). *Does the Composition of Natural-Resource Dependence Matter for Material Efficiency? Evidence from a Global Panel* (Version 0.1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23753399
 
-A DOI can be added to the citation metadata when a version is archived with a DOI-issuing repository.
+**DOI:** https://doi.org/10.5281/zenodo.23753399
+
+This DOI identifies the archived version 0.1.0 of the research package. Subsequent releases may have separate version-specific DOIs.
